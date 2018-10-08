@@ -1,0 +1,308 @@
+
+
+.h1g {
+  position: relative;
+  top: 170px;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  font-size: 12vw;
+  font-weight: 260;
+  text-decoration: none;
+  color: white;
+  
+  display: inline-block;
+  background-size: 120% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -ms-background-clip: text;
+  -ms-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  background-image: linear-gradient(45deg, 
+                    #7794ff, 
+                    #44107A,
+                    #FF1361,
+                    #FFF800);
+  animation: .8s shake infinite alternate;
+  
+}
+
+@keyframes shake {
+  0% { transform: skewX(0deg); }
+  5% { transform: skewX(0deg); }
+  20% { transform: skewX(0deg); }
+  35% { transform: skewX(0deg); }
+  50% { transform: skewX(0deg); }
+  100% { transform: skewX(0deg); }  
+}
+
+	.font1
+	{
+	font-family: 'Roboto Mono', monospace;
+	}
+	.nohyper
+	{
+		text-decoration: none; color: #ffffff !important;
+	}
+	.preloader-background {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #eee;
+	
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;	
+	}
+	.btn-flat
+	{
+   text-transform: none !important 
+   
+	}
+	.rounded
+	{
+	border-radius: 10px 10px 10px 10px;"
+	}
+	.rounded-low
+	{
+	border-radius: 5px 5px 5px 5px;"
+	}
+  .waves-effect.waves-blue .waves-ripple {
+    background-color: rgba(227, 242, 243, 0.65);
+	}
+	.btn-md
+	{
+		width: 40px;
+		height: 40%;
+		right: -215px;
+		bottom: -20px;
+	}
+	
+	/* width */
+		::-webkit-scrollbar {
+			width: 7px;
+		}
+
+		/* Track */
+		::-webkit-scrollbar-track {
+			background: #ffffff; 
+		}
+
+		/* Handle */
+		::-webkit-scrollbar-thumb {
+			background: #bdbdbd; 
+		}
+
+		/* Handle on hover */
+		::-webkit-scrollbar-thumb:hover {
+			background: #757575; 
+		}
+		.unselectable {
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+.downArrow{
+	position: absolute;
+	bottom: 10%;
+	
+}
+.scrollFade{
+	opacity: 1;
+}
+	
+.bounce {
+	-moz-animation: bounce 3s infinite;
+	-webkit-animation: bounce 3s infinite;
+	animation: bounce 3s infinite;
+}
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+.hr-theme-slash-2 {
+  display: flex;
+  opacity: 1;
+}
+  .hr-line {
+    width: 100%;
+    position: relative;
+    margin: 15px;
+    border-bottom: 1px solid #fafafa;
+  }
+  .hr-icon {
+    position: relative;
+    top: 3px;
+    color: #ff0000;
+  }
+.position1{
+	position: absolute;
+	top: 1600px;
+	left: 40px;
+	
+}
+.gaytext {
+	  letter-spacing: 6px;
+
+  font-weight: 550;
+  text-decoration: none;
+  color: white;
+  
+  display: inline-block;
+  background-size: 120% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -ms-background-clip: text;
+  -ms-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  background-image: linear-gradient(45deg, 
+					  #b3a1ba, 
+                    #bbc0c9,
+                    #d6d6d6,
+					#e8e8e8);
+}
+.maxh {
+  height: 100vh;
+}
+// best seen at 1500px or less
+
+body {
+  background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
+  overflow: hidden;
+}
+
+.ocean { 
+  height: 5%;
+  width:100%;
+  position:absolute;
+  bottom:0;
+  left:0;
+  background: #FFFFFF;
+}
+
+.wave {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x; 
+  position: absolute;
+  top: -198px;
+  width: 6400px;
+  height: 198px;
+  animation: wave 7s cubic-bezier( 0.20, 0.20, 0.20, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+}
+
+.wave:nth-of-type(2) {
+  top: -175px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+  opacity: 1;
+}
+
+@keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1600px;
+  }
+}
+
+@keyframes swell {
+  0%, 100% {
+    transform: translate3d(0,-25px,0);
+  }
+  50% {
+    transform: translate3d(0,5px,0);
+  }
+}
+.focus-in-contract-bck {
+	-webkit-animation: focus-in-contract-bck 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: focus-in-contract-bck 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes focus-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(300px);
+            transform: translateZ(300px);
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(12px);
+            transform: translateZ(12px);
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes focus-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(300px);
+            transform: translateZ(300px);
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(12px);
+            transform: translateZ(12px);
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
